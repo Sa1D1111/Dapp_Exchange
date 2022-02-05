@@ -1,12 +1,28 @@
 {
   "contractName": "EthSwap",
-  "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/EthSwap.sol\":\"EthSwap\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/EthSwap.sol\":{\"keccak256\":\"0xc504618c1df5a092df5545a0208ce8e1ab466243bb0acb1f2a0299cb66b4ad6a\",\"urls\":[\"bzz-raw://a4f49f924c7655977c4816f5262fc41a748eab5ddcf36fc58d1a6dc01cd202a9\",\"dweb:/ipfs/QmWJ71zaPJ9nGZkCgwTXWH368K2F6cyR98wZrqHcA6eqad\"]}},\"version\":1}",
-  "bytecode": "0x60806040526040518060400160405280601881526020017f4574687377617020496e7374616e742045786368616e676500000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b603e806101156000396000f3fe6080604052600080fdfea265627a7a7231582083f1f74292881a43df9d83d5074c031e62127bdd959cfc0fdfc3e90d3904019a64736f6c63430005100032",
-  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582083f1f74292881a43df9d83d5074c031e62127bdd959cfc0fdfc3e90d3904019a64736f6c63430005100032",
-  "sourceMap": "27:74:0:-;;;51:40;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;27:74;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:74:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "27:74:0:-;;;;;",
-  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract EthSwap {\r\n    string name = \"Ethswap Instant Exchange\";\r\n    \r\n}\r\n\r\n\r\n",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/EthSwap.sol\":\"EthSwap\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/EthSwap.sol\":{\"keccak256\":\"0x0075a85c2b979e1b401bfd52b076e15cc22aee88e8935693c5b383febaeae6ed\",\"urls\":[\"bzz-raw://fd522436d4b0b36a46be1e178b5a9db8ca71d4da9a9d39413667840f05ef2a3c\",\"dweb:/ipfs/QmYsRcK4C4RVxDMayt7YV62pENkLKTMxsbcay1sex9m6Bb\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280601881526020017f4574687377617020496e7374616e742045786368616e676500000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b610186806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820b9944cf2e1cabfc03982bb479c38d5f3c633985b9d1b9e9d765bf8634987b84364736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820b9944cf2e1cabfc03982bb479c38d5f3c633985b9d1b9e9d765bf8634987b84364736f6c63430005100032",
+  "sourceMap": "27:77:0:-;;;51:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;27:77;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:77:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "27:77:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:77:0;;;;;;;;;;;;;;;;;;;51:47;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;51:47:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract EthSwap {\r\n    string public name = \"Ethswap Instant Exchange\";\r\n\r\n}\r\n\r\n\r\n",
   "sourcePath": "C:\\Users\\ofysa\\Desktop\\Crypto_Exchange\\Exchange\\src\\contracts\\EthSwap.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/EthSwap.sol",
@@ -48,7 +64,7 @@
             "name": "name",
             "nodeType": "VariableDeclaration",
             "scope": 5,
-            "src": "51:40:0",
+            "src": "51:47:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -75,7 +91,7 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "65:26:0",
+              "src": "72:26:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_820d2da68860b366dc03898aa6b77e3508ecc5ef9a989908604f544adf644f30",
@@ -83,14 +99,14 @@
               },
               "value": "Ethswap Instant Exchange"
             },
-            "visibility": "internal"
+            "visibility": "public"
           }
         ],
         "scope": 6,
-        "src": "27:74:0"
+        "src": "27:77:0"
       }
     ],
-    "src": "0:107:0"
+    "src": "0:110:0"
   },
   "legacyAST": {
     "attributes": {
@@ -141,7 +157,7 @@
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string",
-              "visibility": "internal"
+              "visibility": "public"
             },
             "children": [
               {
@@ -168,22 +184,22 @@
                 },
                 "id": 3,
                 "name": "Literal",
-                "src": "65:26:0"
+                "src": "72:26:0"
               }
             ],
             "id": 4,
             "name": "VariableDeclaration",
-            "src": "51:40:0"
+            "src": "51:47:0"
           }
         ],
         "id": 5,
         "name": "ContractDefinition",
-        "src": "27:74:0"
+        "src": "27:77:0"
       }
     ],
     "id": 6,
     "name": "SourceUnit",
-    "src": "0:107:0"
+    "src": "0:110:0"
   },
   "compiler": {
     "name": "solc",
@@ -193,12 +209,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xBc39472B33006dF8329731c54430a3C5E0169a31",
-      "transactionHash": "0xfa2b50856b551a657d9f88cee148e70fb3b3ea9c2859ad448995e4b184b2c426"
+      "address": "0x685c4924dC52e9a55bEe9b4261f3053e408A2205",
+      "transactionHash": "0xea4de544d9efbc2aa1aca67b99ad11350536bc546f01f79938714a90160ac41c"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-02-05T04:36:51.263Z",
+  "updatedAt": "2022-02-05T05:36:59.385Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
